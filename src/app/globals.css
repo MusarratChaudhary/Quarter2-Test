@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-color{
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame1-color{
+  background-color:  rgba(251, 235, 181, 1);
+}
+.frame2-color{
+  background: rgba(250, 244, 244, 1);
+}
+.frame3-color{
+  background: rgba(255, 249, 229, 1);
+}
+.frame4-color{
+  background: rgba(250, 244, 244, 0.5);
+}
+.font-color{
+  color: rgba(159, 159, 159, 1);
+}
+.button-color{
+  background: rgba(250, 244, 244, 1);
+
+}
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
