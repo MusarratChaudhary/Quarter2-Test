@@ -15,7 +15,9 @@ import icon from '../app/icon.png'
 export default function Home() {
   return (
     <>
-       <div className="container mx-auto h-[5052px] w-[1440px] -top-[512px] -left-[720px] main-color">
+       <div className="container mx-auto h-[5090px] w-[1440px] -top-[512px] -left-[720px] main-color">
+
+        {/*SECTION-1 */}
         <div className="h-auto lg:h-[900px] w-full lg:w-[1440px] bg-frame1-color flex flex-col lg:flex-row items-center lg:items-start">
           <div className="flex">
             <h1 className="text-black text-3xl lg:text-[64px] font-[poppins] leading-tight lg:leading-[96px] w-full lg:w-[440px] text-center lg:text-left mt-10 lg:mt-96 px-4 ml-72 ">Rocket single seater
@@ -27,7 +29,7 @@ export default function Home() {
         </div>
       </div>
 
-    
+       {/*SECTION-2 */}
        <div className="h-[672px] w-[1440px] top-[996px] frame2-color">
              <div className="flex">
                  <Image className="mt-16 ml-10 h-[550px] w-[600px]" src={tablepic} alt="Side Table"/>
@@ -38,7 +40,8 @@ export default function Home() {
                <h1 className="-mt-32 ml-[450px] font-black font-[poppins] text-3xl">Side table<h2 className="text-lg leading-[60px]">View More<hr className="w-20 border-[1px] border-gray-800 -mt-3"/></h2></h1>
               </div>
         </div>
-
+ 
+        {/*SECTION-3 */}
         <div className="h-[777px] w-[1440px] top-[1663px]">
            <div>
                <h1 className="text-black font-semibold text-3xl text-center mt-10 leading-loose">Top Picks For You</h1>
@@ -60,17 +63,19 @@ export default function Home() {
             <p className="text-black font-semibold text-lg leading-loose">View More<hr className="w-24 border-[1px] border-gray-800 text-center mt-1"/></p></div>
         </div>
 
+         {/*SECTION-4 */}
          <div className="h-[639px] w-[1440px] top-[2469px] frame3-color">
           <div className="flex">
             <Image className="h-[600px] w-[900px]" src={asgaardSofa} alt="Asgaarf Sofa" />
             <div className="mt-48 ml-20">
             <h1 className="text-black text-2xl font-semibold ml-14">New Arrivals</h1>
             <h1 className="text-black text-5xl font-bold mt-4">Asgaard sofa</h1>
-            <div className="h-12 w-52 border-[1px] border-black mt-7 ml-10 text-center content-center text-black text-sm font-semibold">Order Now</div>
+            <button className="h-12 w-52 border-[1px] border-black mt-7 ml-10 text-center content-center text-black text-sm font-semibold shadow-md shadow-gray-700 hover:bg-indigo-100">Order Now</button>
             </div>
           </div>
         </div>
-         
+
+        {/*SECTION-5 */} 
         <div className="h-[944px] w-[1440px] top-[3108px]">
          <div className="text-center mt-16">
               <h1 className="text-black text-3xl font-semibold">Our Blogs</h1>
@@ -93,7 +98,8 @@ export default function Home() {
             <p className="text-black font-semibold text-lg leading-loose">View All Post<hr className="w-28 border-[1px] border-gray-800 text-center mt-1"/></p>
            </div>
         </div>
-
+ 
+         {/*LAST-SECTION */}
          <div className="h-[450px] w-[1440px] top-[4052px] frame4-color">
           <div className="text-center content-center">
             <h1 className="text-black font-bold text-5xl mt-32">Our Instagram</h1>

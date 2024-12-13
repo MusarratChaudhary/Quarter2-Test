@@ -2,10 +2,10 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>  <div className="container mx-auto h-[555px] w-[1440px] top-[4497px] -mt-[700px]">
+    <div>  <div className="container mx-auto h-[555px] w-[1440px] top-[4497px] -mt-[600px]">
     <div className="flex gap-20 ml-10">
        <p className="mt-32 font-color text-sm">400 University Drive Suite 200 Coral<br/> Gables,<br/>FL 33134 USA</p>
-        <div className="flex gap-40 mt-5">
+        <div className="flex gap-40 mt-14">
           <h1 className="font-color leading-[60px]">Links
             <ul className="text-black font-bold ">
              <li>Home</li>
